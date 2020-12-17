@@ -1,6 +1,6 @@
-const space = require('./index')
+import space from '../index.js'
 
-const rmSpaces = space.removeSpacesEndOfLine("aijsdoaisdj   ")
+const rmSpaces = space.removeSpacesEndOfLine("my String with spaces   ")
 
 console.log(rmSpaces)
 

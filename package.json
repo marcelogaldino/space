@@ -3,9 +3,10 @@
     "version": "0.0.3",
     "description": "Simple and an easy regex validations",
     "license": "MIT",
-    "main": "index.js",
+    "main": "src/index.js",
     "author": "Marcelo Galdino",
     "repository": "https://github.com/marcelogaldino/space.git",
+    "type": "module",
     "husky": {
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -13,7 +14,8 @@
         }
     },
     "scripts": {
-        "commit": "git-cz"
+        "commit": "git-cz",
+        "start": "node src/examples/test.js"
     },
     "keywords": [
         "space",
