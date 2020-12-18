@@ -1,6 +1,6 @@
 {
     "name": "@marcelogaldino/space",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Simple and an easy regex validations",
     "license": "MIT",
     "main": "src/index.js",
