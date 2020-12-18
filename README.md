@@ -6,7 +6,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/marcelogaldino/space?style=plastic)](https://github.com/marcelogaldino/space/network)
 [![GitHub stars](https://img.shields.io/github/stars/marcelogaldino/space?style=plastic)](https://github.com/marcelogaldino/space/stargazers)
 [![GitHub license](https://img.shields.io/github/license/marcelogaldino/space?style=plastic)](https://github.com/marcelogaldino/space/blob/main/LICENSE)
-[![GitHub license](https://img.shields.io/badge/npm-v0.03-red?style=plastic)](https://www.npmjs.com/package/@marcelogaldino/space)
+[![GitHub license](https://img.shields.io/badge/npm-v0.05-red?style=plastic)](https://www.npmjs.com/package/@marcelogaldino/space)
 
 </div>
 
@@ -18,6 +18,7 @@
 - [Documentation](#Documentation)
 - [How to use?](#How-to-use)
 - [Contributing](#Contributing)
+- [License](#License)
 
 ## Why should I use Space?
 
@@ -36,7 +37,7 @@ Below we have some examples using **Space** validations, you also can check the 
 
 **Removing Spaces at the end.**
 ```js
-import space from '../index'
+const space = require('../index.js')
 
 space.removeSpacesEndOfLine("My string with spaces at the end of the line   ")
 
@@ -46,7 +47,7 @@ space.removeSpacesEndOfLine("My string with spaces at the end of the line   ")
 
 **Checking if is a valid email.**
 ```js
-import space from '../index'
+const space = require('../index.js')
 
 space.checkValidEmail('marcelog@marcelogaldino.com')
 
@@ -60,6 +61,6 @@ Check out the [contributing](./CONTRIBUTING.md) page to see our guidelines.
 
 ## License
 
-This project is under the [MIT license.](https://github.com/marcelogaldino/space/blob/main/LICENSE). Released in 2020. 
+This project is under the [MIT license](https://github.com/marcelogaldino/space/blob/main/LICENSE). Released in 2020. 
 
-Made with love by [Marcelo Galdino](https://www.linkedin.com/in/marcelogaldino/) 💜👨‍🚀. 
+Made with love by [Marcelo Galdino](https://www.linkedin.com/in/marcelogaldino/) 💜👨‍🚀

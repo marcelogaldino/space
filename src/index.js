@@ -1,4 +1,4 @@
-import AppError from './errors/AppErrors.js'
+const AppError = require('./errors/AppErrors.js')
 
 const checkValidEmail = str => {
     const re = new RegExp("^\\w*(\\.\\w*)?@\\w*\\.[a-z]+(\\.[a-z]+)?$")
@@ -29,7 +29,7 @@ const removeSpacesEndOfLine = str => {
     return result
 }
 
-export default {
+module.exports = {
     checkValidEmail,
     removeSpacesEndOfLine
 }
