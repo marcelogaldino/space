@@ -1,9 +1,9 @@
-import space from '../index.mjs'
+const space = require('../index.js')
 
-const rmSpaces = space.removeSpacesEndOfLine("my String with spaces   ")
+const rmSpaces = space.removeSpacesEndOfLine("My string with spaces    ")
 
 console.log(rmSpaces)
 
-const isEmail = space.checkValidEmail('marcelog@romagnole.com.br')
+const isEmail = space.checkValidEmail('marcelogromagnole.com.br')
 
 console.log(isEmail)
