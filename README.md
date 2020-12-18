@@ -12,6 +12,8 @@
 
 > Everyone's favorite regex validations build in JS.
 
+*Checkout our package at npm page [here](https://www.npmjs.com/package/@marcelogaldino/space)*
+
 ## Table of Contents
 
 - [Why should I use Space?](#Why-should-I-use-Space)
@@ -32,6 +34,15 @@ Space borned to be simple and easy to use, it helps you validate strings with [r
 | removeSpacesEndOfLine | `string` | returns your `string` without spaces at the end |
 
 ## How to use?
+
+**Installing the package**
+```bash
+# Using NPM
+npm i @marcelogaldino/space
+
+# Using Yarn
+yarn add @marcelogaldino/space
+```
 
 Below we have some examples using **Space** validations, you also can check the [examples folder](./src/examples).
 
