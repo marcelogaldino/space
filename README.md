@@ -12,6 +12,8 @@
 
 > Everyone's favorite regex validations build in JS.
 
+*Checkout our package at npm page [here](https://www.npmjs.com/package/@marcelogaldino/space)*
+
 ## Table of Contents
 
 - [Why should I use Space?](#Why-should-I-use-Space)
