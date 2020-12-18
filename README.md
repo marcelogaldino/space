@@ -14,7 +14,7 @@
 
 ## Table of Contents
 
-- [Why should I use Space?](#Why-should-I-use-Space?)
+- [Why should I use Space?](#Why-should-I-use-Space)
 - [Documentation](#Documentation)
 - [How to use?](#How-to-use)
 - [Contributing](#Contributing)

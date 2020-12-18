@@ -1,10 +1,12 @@
+import AppError from './errors/AppErrors.js'
+
 const checkValidEmail = str => {
     const re = new RegExp("^\\w*(\\.\\w*)?@\\w*\\.[a-z]+(\\.[a-z]+)?$")
 
     const test = re.test(str)
 
     if (!test) {
-        throw new Error("Not a valid email")
+        return new AppError("Not a valid email")
     }
 
     return true
@@ -15,11 +17,11 @@ const removeSpacesEndOfLine = str => {
     const arrayResult = re.exec(str)
 
     if (str.length < 1) {
-        throw new Error("Need a valid string")
+        return new AppError("Need a valid string")
     }
 
     if (arrayResult[0].length < 1) {
-        throw new Error("Your string doesnt have spaces at the end of line")
+        return new AppError("Your string doesnt have spaces at the end of line")
     }
 
     const result = str.replace(arrayResult[0], '')
