@@ -1,4 +1,4 @@
-import space from '../index.js'
+import space from '../index.mjs'
 
 const rmSpaces = space.removeSpacesEndOfLine("my String with spaces   ")
 
