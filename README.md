@@ -33,6 +33,15 @@ Space borned to be simple and easy to use, it helps you validate strings with [r
 
 ## How to use?
 
+**Installing the package**
+```bash
+# Using NPM
+npm i @marcelogaldino/space
+
+# Using Yarn
+yarn add @marcelogaldino/space
+```
+
 Below we have some examples using **Space** validations, you also can check the [examples folder](./src/examples).
 
 **Removing Spaces at the end.**
